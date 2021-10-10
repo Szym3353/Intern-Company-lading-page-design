@@ -5,7 +5,8 @@
         justify-content: center;
         font-family: RedHatFont;
         flex-wrap: wrap;
-        margin-bottom: 70px;
+        /* margin-bottom: 70px; */
+        margin-bottom: $section-margin;
         .text-box{
             width: 500px;
             padding: 5px 40px;

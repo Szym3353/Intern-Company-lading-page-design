@@ -86,7 +86,7 @@
 .landing-content {
   width: 100%;
   position: relative;
-  margin-bottom: 100px;
+  margin-bottom: 150px;
 }
 .landing-content .image {
   height: calc(100vh - 137px);
@@ -243,7 +243,7 @@
   }
 }
 .room-list {
-  margin-bottom: 100px;
+  margin-bottom: 150px;
 }
 .room-list .text-boxes {
   display: -webkit-box;
@@ -255,7 +255,8 @@
   font-family: RedHatFont;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  margin-bottom: 70px;
+  /* margin-bottom: 70px; */
+  margin-bottom: 150px;
 }
 .room-list .text-boxes .text-box {
   width: 500px;
@@ -343,7 +344,7 @@
 }
 .application {
   width: 100%;
-  margin-bottom: 70px;
+  margin-bottom: 150px;
 }
 .application .image-container {
   background-color: #D64933;
