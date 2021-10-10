@@ -1,0 +1,50 @@
+.footer{
+    background: $main-color;
+    padding: 0 50px;
+    hr{
+        opacity: 0.5;
+    }
+    .top{
+        height: 100px;
+        .buttons{
+            list-style-type: none;
+            display: flex;
+            justify-content: left;
+            align-items: center;
+            height: 100%;
+            .button{
+                color: #fff;
+                font-size: 28px;
+                margin-right: 25px;
+                transition: 0.35s;
+                cursor: pointer;
+                &:hover{
+                    color: rgb(240, 196, 196);
+                }
+            }
+        }
+    }
+    .bottom{
+        height: 100px;
+        .buttons{
+            list-style-type: none;
+            display: flex;
+            justify-content: end;
+            align-items: center;
+            height: 100%;
+            .button{
+                color: #fff;
+                font-family: RedHatFont;
+                font-size: 14px;
+                margin-right: 25px;
+                transition: 0.35s;
+                text-decoration: underline;
+                font-weight: 400;
+                cursor: pointer;
+                &:hover{
+                    color: rgb(240, 196, 196);
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,89 @@
+.application{
+    width: 100%;
+    margin-bottom: 70px;
+    .image-container{
+        background-color: $main-color;
+        flex-grow: 1;
+        display: flex;
+        justify-content: center;
+        .image{
+            height: 522px;
+        }
+    }
+    .note-header{
+        @include note-header;
+        text-align: right;
+        margin-right: 300px;
+        margin-bottom: 45px;
+    }
+    .app-display{
+        /* height: 522px; */
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .card{
+        background: $main-color;
+        color: #fff;
+        font-family: RedHatFont;
+        padding: 0 30px;
+        position: relative;
+        letter-spacing: 1.3px;
+        flex-basis: 450px;
+        flex-grow: 1;
+        min-height: 422px;
+        .navigation-buttons{
+            display: flex;
+            justify-content: space-between;
+            padding: 20px 0px;
+            .navigation-button{
+                font-size: 30px;
+                background: none;
+                border: none;
+                color: #fff;
+            }
+        }
+        .title{
+            font-weight: 600;
+            font-size: 30px;
+            margin-top: 30px;
+            margin-bottom: 35px;
+        }
+        .room{
+            font-size: 14px;
+            margin-bottom: 60px;
+            font-weight: 300;
+        }
+        .description{
+            font-size: 18px;
+            line-height: 29px;
+            padding-bottom: 120px;
+        }
+        .read-more-button{
+            position: absolute;
+            bottom: 40px;
+            padding: 10px 15px;
+            background: none;
+            border: 1px solid white;
+            color: #fff;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    }
+}
+
+@media screen and (max-width: 1030px){
+    .application{
+        .note-header{
+            margin-right: 0;
+            width: 100%;
+            text-align: center;
+        }
+        .image-container{
+            .image{
+                height: auto;
+                width: 100%;
+                object-fit: cover;
+            }
+        }
+    }
+}

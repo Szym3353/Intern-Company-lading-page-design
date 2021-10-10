@@ -1,0 +1,23 @@
+$main-color: #D64933;
+$section-margin: 100px;
+
+@font-face {
+    font-family: RedHatFont;
+    src: url('../assets/fonts/Red_Hat_Text/RedHatText-VariableFont_wght.ttf');
+}
+
+@font-face{
+    font-family: NothingYouCanDo;
+    src: url('../assets/fonts/Nothing_You_Could_Do/NothingYouCouldDo-Regular.ttf');
+}
+
+@mixin note-header{
+    color: #000;
+    font-family: NothingYouCanDo;
+    font-size: 28px;
+}
+@mixin main-header{
+    color: $main-color;
+    font-size: 35px;
+    font-family: RedHatFont;
+}
